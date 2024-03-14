@@ -1,0 +1,11 @@
+@media screen and (max-width: 425px) {
+    .products{
+flex-direction: column;
+gap: 20px;
+    }
+      .card {
+        width: 100% !important;
+        
+      }
+    
+  }

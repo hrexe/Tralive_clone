@@ -90,7 +90,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 60vh;
+
   width: 100%;
 }
 
@@ -211,6 +211,9 @@
 }
 
 .fourth .products .card {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%;
   width: 25%;
   overflow: hidden;
   border-radius: 5px;
@@ -263,3 +266,4 @@
   background-color: #b6b6bc;
   color: #3144ee;
 }
+/*# sourceMappingURL=style.css.map */
